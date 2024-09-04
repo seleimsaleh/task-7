@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    overflow: hidden;
+}
+main{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: inline-flex;
+}
+main .left{
+    
+    width: 30%;
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    
+}
+main .left p{
+    font-size: 25px;
+    color: black;
+}
+.a:hover{
+    color: cadetblue;
+}
+main .left .img{
+    width: 120px;
+    border-radius: 190px;
+    margin-top: 1vh;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a h1{
+    font-size: 19px;
+}
+
+    
+main .right{
+    width: 70%;
+    float: right;
+    
+}
+main .right .img{
+    float: right;
+    margin-top: 20px;
+    
+}
+main .right h1{
+    font-size: 75px;
+    margin: 2vh;
+}
+main .right p{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.padding{
+    margin-top: 25vh;
+    margin-left: 40px;
+}
+.imge{
+    padding-top: 10px;
+}
+.border{
+    width: 220px;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: 30px;
+}
+
